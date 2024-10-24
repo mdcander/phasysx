@@ -15,16 +15,16 @@ export default function Cabecalho() {
                         md:items-start justify-between text-center md:text-left gap-5 md:gap-0">
                     <Logo />
                     <div className="flex flex-col p-5 justify-between items-center">
-                        <Link href="/" className='font-extralight pb-4" '>Sobre a phasys</Link>
+                        <Link href="./paginas/sobre" className='font-extralight pb-4" '>Sobre a phasys</Link>
                     </div>
                     <div className="flex flex-col  p-5  justify-between items-center">
-                        <Link href="/" className='font-extralight pb-4" '>Contate-nos</Link>
+                        <Link href="./paginas/contato" className='font-extralight pb-4" '>Contato</Link>
                     </div>
                     <div className="flex flex-col  p-5 justify-between items-center">
-                        <Link href="/" className='font-extralight pb-4" '>Blog tech</Link>
+                        <Link href="./paginas/blog" className='font-extralight pb-4" '>Blog tech</Link>
                     </div>
                     <div className="flex flex-col  p-5 justify-between items-center">
-                        <Link href="/" className='font-extralight pb-4" '>Entrar</Link>
+                        <Link href="./paginas/entrar" className='font-extralight pb-4" '>Entrar</Link>
                     </div>
                 </div>
             </nav>         
